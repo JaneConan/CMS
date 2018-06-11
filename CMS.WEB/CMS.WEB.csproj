@@ -8,4 +8,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Manger\" />
+    <Folder Include="wwwroot\lib\AdminLTE-3.0.0\" />
+    <Folder Include="wwwroot\lib\AdminLTE-3.0.0\plugins\ionicons\" />
+    <Folder Include="wwwroot\lib\AdminLTE-3.0.0\plugins\fonts\" />
+  </ItemGroup>
 </Project>
