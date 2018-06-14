@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.WEB", "CMS.WEB\CMS.WEB.csproj", "{3F3E52DA-B82C-475F-826E-FA0A65C62E9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.CommonUI", "CMS.CommonUI\CMS.CommonUI.csproj", "{5440D792-5A28-4E0E-9DEB-680C0E2A42C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3F3E52DA-B82C-475F-826E-FA0A65C62E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3E52DA-B82C-475F-826E-FA0A65C62E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3E52DA-B82C-475F-826E-FA0A65C62E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5440D792-5A28-4E0E-9DEB-680C0E2A42C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5440D792-5A28-4E0E-9DEB-680C0E2A42C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5440D792-5A28-4E0E-9DEB-680C0E2A42C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5440D792-5A28-4E0E-9DEB-680C0E2A42C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

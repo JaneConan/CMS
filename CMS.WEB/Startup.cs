@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using CMS.CommonUI;
 
 namespace CMS.WEB
 {
@@ -30,6 +31,8 @@ namespace CMS.WEB
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //添加通用CommonUI的服务，以便引入wwwroot资源文件
+            services.AddCommonUI();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
